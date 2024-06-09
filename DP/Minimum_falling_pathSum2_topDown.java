@@ -5,7 +5,7 @@ public class Minimum_falling_pathSum2_topDown {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-			int [][] arr= {{7}};
+			int [][] arr= {{1,2,3},{4,5,6},{7,8,9}};
 	        int[][] dp = new int[arr.length][arr[0].length];
 			for (int i = 0; i < dp.length; i++) {
 				Arrays.fill(dp[i], Integer.MIN_VALUE);
